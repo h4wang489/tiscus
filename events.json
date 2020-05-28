@@ -37,6 +37,22 @@
 		       "04": 3} // when timelist is finished, generate based on slotIDs and define value 0
 	},
 	{
+	"eventID": "03",
+        "creatorID": "06", //user ID
+        "title": "Basketball",
+        "duration": "5:00:00",
+        "constraint": ["Apr 22", "Apr 22"], // constrained range: 1-5 days
+        "notes": "",
+        "participants": {"02":"pending",
+			 "03":"accepted",
+			 "04":"rejected"},
+        "timeList": {"01":{"date":"Apr 22", "startTime": "16:00:00", "endTime": "18:00:00"},
+		     "02":{"date":"Apr 22", "startTime": "18:00:00", "endTime": "20:00:00"},
+		     "03":{"date":"Apr 22", "startTime": "20:00:00", "endTime": "22:00:00"}},  //default: pacific time; 24h
+	"preference": {"01": 3,
+		       "02": 1,
+		       "03": 0} // when timelist is finished, generate based on slotIDs and define value 0
+	},
 		
     
     
