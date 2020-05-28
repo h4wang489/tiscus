@@ -12,7 +12,17 @@
                        { "groupName":"Church Group", "groupmates":[ "04", "05", "06" ] } ] // user IDs
 	},
 	{
-        
+        	"email": "h4wang@ucsd.edu",
+        "userID": "00000002", //tbd
+		"userName": "Heqi Wang",
+		"image": "url", //to be added
+		"password": "88888888",
+        "timeZone": "", //string? tbd
+        "involvedEvent": [ "01", "02", "03" ], //event IDs
+        "TcMeetPurchase": false,
+        "TcMeetGroup": [ { "groupName":"Poker Group", "groupmates":[ "01", "02", "03" ] },
+                       { "groupName":"Basketball Group", "groupmates":[ "04", "05", "06" ] } ] // user IDs
+	},
     
     
 	},
